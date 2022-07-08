@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right bottom,
+    #8E54E9 , #F187FB) no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: linear-gradient(to right bottom,
+    #8e2de2, #4a00e0) no-repeat;
+    border-radius: 5px;
+    padding: 15px;
+    width: 370px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color:white;
+}
+
+.form-control label {
+    cursor: pointer;
+}
+
+.p-header {
+    position: relative;
+}
+
+#copy {
+    color: #fff;
+    margin-bottom: 13px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #ec008c;
+}
+#copy:hover {
+    background-color: #FFC837 ;
+}
+
+
+.p-header input {
+    width: 100%;
+    height: 100%;
+    background-color: #8e2de2;
+    padding: 14px;
+    border-radius: 3px;
+    color: white;
+    outline:auto;
+    font-size: 16px;
+}
+
+.p-header button,
+.form-control input[type=number] {
+    padding: 3px 5px;
+    background-color: #eee;
+    outline: none;
+    border: none;
+    border-radius: 3px 0 0 0;
+}
+
+.p-header button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#submit {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #ec008c;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+#submit:hover{
+    background-color: #FFC837;
+}
+
+#submit:after {
+    background-color: #700746;
+}
+
+
+
+
