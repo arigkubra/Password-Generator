@@ -41,13 +41,4 @@ function copyClipboard (){
 
 
 
-/*copy.addEventListener("click" , () => {
-    if (password.value == ""){
-        alert("Please generate a password")
-    }else{
-        password.select()
-        document.execCommand("copy")
-        alert("Password has been copied to clipboard!")
-    }
-})
-*/
+
