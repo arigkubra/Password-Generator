@@ -36,9 +36,7 @@ function generatePassword(l, initialPassword){
 
 function copyClipboard (){
     const copy = document.getElementById("password")
-    copy.select()
     navigator.clipboard.writeText(copy.value)
-    alert("Password has been copied to the clipboard ");
 }
 
 
